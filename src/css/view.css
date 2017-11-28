@@ -1,0 +1,30 @@
+body {
+    background: #faf8ef;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+.game-container{
+    position: relative;
+}
+.outer-box {
+    position: absolute;
+    background: #bbada0;
+    border-radius: 6px;
+    width : 500px;
+    height : 500px;
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between;
+}
+
+.inner-box {
+    background: rgba(238, 228, 218, 0.35);
+    width : 23%;
+    height : 23%;
+    border-radius: 3px;
+}
+
